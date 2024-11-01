@@ -1,0 +1,42 @@
+.settings_page_wp-blog-posts .wpbpsection{ margin-bottom: 1rem; margin-top: 1.5rem; border-radius: .25rem; background: #fff; padding: 20px; border: 1px solid #aebac899; }
+.settings_page_wp-blog-posts .wpbpsection .wpbp-head-section{ display: flex; align-items: center; margin: auto; padding: 17px 20px; color: #3b444f; background: #f5f5f5; text-align: left; font-size: 16px; box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset, 0 0 1px 0 rgba(44, 54, 67, 0.25); margin-bottom: 20px; border-radius: 5px; border: 1px solid #aebac899; }
+.settings_page_wp-blog-posts .wpbpsection .wpbp-head-section .wpbp-logo-area{margin-right: 15px;display: block;line-height: 0;}
+.settings_page_wp-blog-posts .wpbpsection .wpbp-head-section .wpbp-title-area h3{color: #3b444f;margin: 10px 0;}
+.settings_page_wp-blog-posts h2{ margin: auto; padding: 17px 20px; color: #3b444f; background: #f5f5f5; text-align: left; font-size: 16px; box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset, 0 0 1px 0 rgba(44, 54, 67, 0.25); margin-bottom: 20px; border-radius: 5px; border: 1px solid #aebac899; }
+.settings_page_wp-blog-posts .wpbpsection .wpbp-option-page .wpbp-shortcode{width: 310px;background: #46b450;color: #ffffff;border: 1px solid #46b450;}
+.settings_page_wp-blog-posts .wpbpsection .wpbp-option-page td span.small_desc_shortcode{margin-top: 10px;display: block;}
+.settings_page_wp-blog-posts .wpbpsection .wpbp-option-page td span.small_desc_shortcode i{display: block;    line-height: 20px; }
+.settings_page_wp-blog-posts .wpbpsection .wpbp-option-page{ color: #3b444f; }
+.settings_page_wp-blog-posts .wpbpsection .wpbp-option-page .form-table td{ padding: 0 10px; line-height: 40px; }
+.settings_page_wp-blog-posts .wpbpsection .wpbp-option-page .form-table th{ width: 120px; color: #3b444f; }
+.settings_page_wp-blog-posts .wpbpsection .wpbp-option-page .submit{ padding: 0; }
+.settings_page_wp-blog-posts .switch { position: relative; display: inline-block; width: 50px; height: 22px; }
+.settings_page_wp-blog-posts .switch input { opacity: 0; width: 0; height: 0; }
+.settings_page_wp-blog-posts .form-table td p { margin: 4px 50px 0 5px; display: inline-block; }
+.settings_page_wp-blog-posts .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; -webkit-transition: .4s; transition: .4s; }
+.settings_page_wp-blog-posts .slider:before { position: absolute; content: ""; height: 15px; width: 15px; left: 4px; bottom: 4px; background-color: white; -webkit-transition: .4s; transition: .4s; }
+.settings_page_wp-blog-posts input:checked + .slider { background-color: #46b450; }
+.settings_page_wp-blog-posts input:focus + .slider { box-shadow: 0 0 1px #46b450; }
+.settings_page_wp-blog-posts input:checked + .slider:before { -webkit-transform: translateX(26px); -ms-transform: translateX(26px); transform: translateX(26px); }
+.settings_page_wp-blog-posts .slider.round { border-radius: 34px; }
+.settings_page_wp-blog-posts .slider.round:before { border-radius: 50%; }
+.settings_page_wp-blog-posts #submit{ padding: 12px 18px 12px 18px; color: #fff; background: #46b450; line-height: 14px; box-shadow: 0px 8px 21px 0px rgba(36, 39, 50, 0.08); border: none; font-size: 14px; }
+.settings_page_wp-blog-posts #submit:hover{ background: #1ca347; }
+.settings_page_wp-blog-posts div.wp-picker-holder { overflow: unset; height: 0; }
+.settings_page_wp-blog-posts div.iris-picker.iris-border { z-index: 1; }
+.settings_page_wp-blog-posts .wp-picker-container  button.wp-color-result, .settings_page_wp-blog-posts span.wp-picker-input-wrap input.wpbp-post-color, .settings_page_wp-blog-posts span.wp-picker-input-wrap input.wp-picker-clear { margin: 6px; }
+.settings_page_wp-blog-posts .wp-picker-container  button.wp-color-result { margin-left: 0; }
+#wpbp_color_meta input.wpbp-post-color { margin-right: 6px; }
+.settings_page_wp-blog-posts .iris-picker.iris-border { margin: 0; }
+.settings_page_wp-blog-posts span.wp-picker-input-wrap input.wp-picker-clear, #wpbp_color_meta input.wp-picker-clear { min-height: 28px; }
+.settings_page_wp-blog-posts .wpbp-level-color-section { display: flex; align-items: center; }
+.settings_page_wp-blog-posts .wpbp-level-color-label { width: 250px; word-wrap: break-word; }
+
+@media only screen and ( max-device-width: 480px ) {
+	.settings_page_wp-blog-posts .wpbp-level-color-section {flex-flow: row wrap;}
+	.settings_page_wp-blog-posts .wpbpsection .wpbp-option-page .form-table td{padding-top: 10px;}
+	.settings_page_wp-blog-posts .wpbpsection .wpbp-option-page .form-table td input[type=text]{
+		width: 100%;
+    	font-size: 15px;
+	}
+}
